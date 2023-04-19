@@ -7,7 +7,6 @@ body{
     height: 100vh;
     display: grid;
     grid-template: 150px 1fr/20% 1fr;
-    gap: 10px;
 }
 .header{
     border: 2px solid red;
