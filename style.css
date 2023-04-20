@@ -57,7 +57,6 @@ button:active,
 }
 .search-box input:focus{
     outline: none;
-    border: 2px solid #fb7185;
 }
 .search-box-svg{
     width: 25px;
@@ -181,6 +180,11 @@ button:active,
     flex-direction: column;
     justify-content: space-between;
     border-left: 10px solid #fb7185;
+    transition: all 1s;
+}
+
+.project-cards:hover{
+    scale: 1.04;
 }
 
 .project-card-buttons{
@@ -196,6 +200,7 @@ h4{
 .announcements p{
     color: grey;
 }
+
 
 .announcements{
     display: flex;
